@@ -12,7 +12,6 @@ Group:			Text tools
 Url:			http://www.h.shuttle.de/mitch/makesig_pl.en.html
 Source:			%name-%version.tar.bz2
 Patch:			makesig.pl.patch.bz2
-BuildRoot:		%_tmppath/%name-buildroot
 BuildArchitectures:	noarch
 
 %description
