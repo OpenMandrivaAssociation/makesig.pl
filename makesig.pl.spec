@@ -1,6 +1,6 @@
 %define name makesig.pl
 %define version 0.0.9
-%define release  %mkrel 7
+%define release  %mkrel 8
 %define summary A very flexible random signature generator
 
 Name:			%name
