@@ -1,17 +1,17 @@
 %define name makesig.pl
 %define version 0.0.9
-%define release  %mkrel 8
+%define release  %mkrel 9
 %define summary A very flexible random signature generator
 
 Name:			%name
 Version:       		%version
 Release:       		%release
 Summary:		%summary
-License:		GPL
+License:		GPLv2
 Group:			Text tools
 Url:			http://www.h.shuttle.de/mitch/makesig_pl.en.html
 Source:			%name-%version.tar.bz2
-Patch:			makesig.pl.patch.bz2
+Patch0:			makesig.pl.patch
 BuildRoot:		%_tmppath/%name-buildroot
 BuildArchitectures:	noarch
 
@@ -22,10 +22,8 @@ tools to format your signature. makesig.pl can also read fortune files.
 
 %prep
 rm -rf $RPM_BUILD_ROOT
-
 %setup
-
-%patch -p1
+%patch0 -p1
 
 %build
 
