@@ -1,0 +1,18 @@
+--- makesig.pl-0.0.9/examples/tools.sh.orig	Mon Jan 22 13:23:18 2001
++++ makesig.pl-0.0.9/examples/tools.sh	Mon Jan 22 13:23:32 2001
+@@ -9,7 +9,7 @@
+ # are in the examples directory.
+ #
+ 
+-PATH="../tools/:..:$PATH"
++#PATH="../tools/:..:$PATH"
+ 
+ echo "This is a demonstration of the makesig.pl random signature generator."
+ echo "Get your up-to-date copy at http://www.cgarbs.de/makesig_pl.en.html"
+@@ -122,4 +122,4 @@
+ echo
+ echo ">>> If you can't read all of this at once, try \"./tools.sh | less\""
+ echo ">>> If you want to know how this is done, try \"less ./tools.sh\""
+-echo
+\ No newline at end of file
++echo
