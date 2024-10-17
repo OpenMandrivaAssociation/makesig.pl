@@ -9,7 +9,7 @@ Release:       		%release
 Summary:		%summary
 License:		GPLv2
 Group:			Text tools
-Url:			http://www.h.shuttle.de/mitch/makesig_pl.en.html
+Url:			https://www.h.shuttle.de/mitch/makesig_pl.en.html
 Source:			%name-%version.tar.bz2
 Patch0:			makesig.pl.patch
 BuildRoot:		%_tmppath/%name-buildroot
