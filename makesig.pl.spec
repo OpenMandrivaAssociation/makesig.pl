@@ -15,6 +15,7 @@ Patch0:			makesig.pl.patch
 BuildRoot:		%_tmppath/%name-buildroot
 BuildArchitectures:	noarch
 
+BuildRequires:	make
 %description
 makesig.pl is a very flexible random signature generator for those who
 don't fear the power of the command line. It comes together with some
